@@ -46,3 +46,7 @@ src/lay/modules/custom-layer.js
 
 ```
 
+### 相关链接
+- layui-custom对应案例：https://yimogit.github.io/layui-custom/
+- layui仓库：https://github.com/sentsin/layui/
+- layui官网：http://www.layui.com
