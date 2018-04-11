@@ -63,7 +63,7 @@ gulp.task('custom', function(){
   .pipe(gulp.dest(getDistPath()))
   //4. 打包js
   //添加了 custom-layer,custom-code,custom-laydate,custom-layui
-  var customMods='laytpl,laypage,jquery,element,upload,form,table,carousel,util,flow,tree,layedit,all,custom-layer,custom-code,custom-laydate,custom-layui'
+  var customMods='custom-layui,all,laytpl,laypage,custom-laydate,jquery,custom-layer,element,upload,form,tree,table,carousel,util,flow,layedit,custom-code'
   var src = [
     getLayuiPath('/**/{'+ customMods +'}.js')
     ,"!"+getLayuiPath('/**/mobile/*.js')

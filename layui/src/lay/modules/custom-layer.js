@@ -100,6 +100,7 @@ var layer = {
 
   //主体CSS等待事件
   ready: function(callback){
+    callback&&callback()
     // var cssname = 'layer', ver = ''
     // ,path = (isLayui ? 'modules/layer/' : 'theme/') + 'default/layer.css?v='+ layer.v + ver;
     // isLayui ? layui.addcss(path, callback, cssname) : ready.link(path, callback, cssname);
