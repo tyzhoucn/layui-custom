@@ -1,4 +1,4 @@
-## custom-layui 
+## layui-custom
 > 在源代码的基础上修改了layer,laydate,code 模块以禁用 css 加载(将其一同打包到 layui.css 中，css+js 大概300k)
 > 修改的目的主要是为了更方便的使用，使其更加适合传统/单页模式引入css,js
 > 新增的文件皆以`custom-`开头，方便后续layui升级对比
